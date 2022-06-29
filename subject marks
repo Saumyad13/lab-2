@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int phy, chem, eng, math, cs; 
+    float per; 
+
+    /* Input marks of five subjects from user */
+    printf("Enter five subjects marks: ");
+    scanf("%d%d%d%d%d", &phy, &chem, &eng, &math, &cs);
+
+
+    /* Calculate percentage */
+    per = (phy + chem + eng + math + cs) / 5.0;
+
+    printf("Percentage = %.2f\n", per);
+      return 0;
+      }
